@@ -19,8 +19,10 @@ public class MidiTestApp extends SimplePicoPro {
         serialMidi = new SerialMidi(UART6);
     }
 
+
     @Override
     public void loop() {
+
 
         serialMidi.midi_controller_change(channel,timbre_controller,timbre_value);
 

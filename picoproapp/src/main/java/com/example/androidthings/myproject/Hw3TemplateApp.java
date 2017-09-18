@@ -1,4 +1,5 @@
 package com.example.androidthings.myproject;
+import edu.berkeley.idd.utils.SerialMidi;
 
 import android.util.Log;
 
@@ -46,6 +47,7 @@ public class Hw3TemplateApp extends SimplePicoPro {
             Log.e("HW3Template","setup",e);
         }
     }
+
 
     public void loop() {
         // read all analog channels and print to UART
