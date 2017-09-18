@@ -46,6 +46,6 @@ The code is set up to read all four analog ports (A0 -A3). Three photoresistors 
 The linear pot maps a 7 bit integer to controller 77 in the software. Mikro Prism can then assign this controller on the computer interface.
 
 ### Reflection
-We learned a lot from this exercise and have had a lot of playing music on it. None of us are musicians, and this influenced are design as we wanted to make a device that we could all play. Limiting it to a selection of chords helped a lot in not allowing it to sound like a cat walking on a piano.
+We learned a lot from this exercise and have had a lot of fun playing music on it. None of us are musicians, and this influenced our design as we wanted to make a device that we could all play. Limiting it to a selection of chords helped a lot in not allowing it to sound like a cat walking on a piano.
 
 Initially we had wanted to use the accelerometer, but found that the movement was somewhat unpredictable with the Pico Pro. Switching to using the photoresistors made for a more consistent experience and a device design that was playable. The single biggest challenge was getting the full pipeline of software up and running (Pico to Serial to MIDI to Virtual MIDI port to Synthesizer).
