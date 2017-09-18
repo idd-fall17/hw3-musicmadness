@@ -3,7 +3,7 @@
 
 ### Overview
 
-[Vimeo Demo](https://vimeo.com/233262710)
+[Vimeo Demo](https://vimeo.com/234336554)
 
 For Homework 3, We built a MIDI device to control a synthesizer (Mikro Prism) on the computer. We choose Neil Young's Heart of Gold as a starting point for and decided the play the chords (groups of three notes on a scale) used in that song. The chords Em, C, D, G, Bm, Am are used and all sound relatively good together.
 
@@ -37,6 +37,7 @@ The circuit is pretty simple, photoresistor/potentiometer together with a 10k is
 
 #### Final Wiring
 The physical circuit of this device is quite simple as it uses three photoresistors and a linear potentiometer all in series with a respective 10K resistor. The functionality of the circuit is that each variable resistor functions as a voltage divider which is then read from one of the four analog pins of the Pico Pro hat. A small piece of perfboard was used to solder in the resistors, common ground and power. From this board connecting wires are ported through the top of the wooden box to be connected to the Pico Pro hat.
+
 ![Wiring](./img/wiring.jpg)
 
 ### Code
